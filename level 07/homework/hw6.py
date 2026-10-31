@@ -1,27 +1,24 @@
+
 # 6)
 
-num1 = int(input("Please enter a number: "))
+user_number = int(input("Please enter your number: "))
 
-full = 2
-much = 0
+count = 0
 
-for i in range(1, num1 + 2) :
-    if full > num1:
-        break
-    full += 2
-    much += 1
+for i in range(0, user_number + 1, 2):
+    count += 1
 
-print(full)
-print(much)
+print(count)
 
-#----------------------------------------------------------------
+
+#---------------------------------------------------------------------------------
+
 
 num1 = int(input("Please enter a number: "))
 
-m1 = 2
-m2 = 0
+y = 0
 
-while num1 <= m2:
-    print(m1)
-    m1 += num1
+while y <= num1 :
+    print(y)
+    y += 2
 
