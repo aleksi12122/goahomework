@@ -12,6 +12,7 @@ for number in range(0, n, 3) :
 num1 = int(input("Please enter a number: ")) 
 
 x =0
+
 while x <= num1:
     print(x)
     x += 3
