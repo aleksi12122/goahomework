@@ -1,4 +1,5 @@
 # 4) იპოვე დაშვებული შეცდომები:
+
 first_name = "Gio"
 last_name = "Kavtaradze"
 age = 17
