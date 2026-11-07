@@ -18,6 +18,6 @@ while True :
         count += 1
     if number == num1 :
         print(number)
-        print("You guessed correct")
+        print("You guessed correct. You won!")
         print("You guessed in - ", count, "attempts")
 
