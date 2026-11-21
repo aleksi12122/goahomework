@@ -15,13 +15,13 @@ while True :
     total += number
 
     if number > 0 :
-        sign = "positive"
+        print("positive")
         positive_count += 1
 
     else :
-        sigh = "negative"
+        print("negative")
 
-    pair = "even" if number % 2 == 0 else "odd"
+    print("even" if number % 2 == 0 else "odd")
 
 
 print("numbers")

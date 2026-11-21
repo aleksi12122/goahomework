@@ -9,7 +9,7 @@ for i in range (count) :
 if full > 200 :
     full = full * 0.85
 elif full >= 100 and full < 200 :
-    full = full * .90
+    full = full * 0.90
 
 print("you have to pay - ", full, "lari")
 
